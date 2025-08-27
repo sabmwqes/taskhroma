@@ -1,13 +1,18 @@
-// import { useState } from 'react'
-import './App.css'
 
-function App() {
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Home from './pages/home';
+import NotFound from './pages/404';
 
-  return (
-    <>
-      <h1>TODOアプリ制作中</h1>
-    </>
-  )
-}
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Navigate to="/home" replace />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </BrowserRouter>
+);
 
-export default App
+export default App;
