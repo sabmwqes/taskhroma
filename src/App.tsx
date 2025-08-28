@@ -1,12 +1,11 @@
-
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './pages/home';
-import NotFound from './pages/404';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 const App: React.FC = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/taskhroma">
     <Routes>
       <Route path="/" element={<Navigate to="/home" replace />} />
       <Route path="/home" element={<Home />} />
