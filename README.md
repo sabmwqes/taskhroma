@@ -1,7 +1,7 @@
 # TASKhroma
 <div align="center">
 
-[![View on GitHub Pages](https://img.shields.io/badge/View%20on-GitHub%20Pages-0000dd?style=for-the-badge&logo=github)](https://sabmwqes.github.io/todo-webapp/)
+[![View on GitHub Pages](https://img.shields.io/badge/View%20on-GitHub%20Pages-0000dd?style=for-the-badge&logo=github)](https://sabmwqes.github.io/taskhroma/)
 
 </div>
 
