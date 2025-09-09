@@ -1,0 +1,19 @@
+.title {
+    width: 300px;
+}
+
+.home-header {
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.home-content {
+    padding: 20px;
+}
+
+@media (prefers-color-scheme: light) {
+    img.invert-light {
+        filter: invert(1);
+    }
+}

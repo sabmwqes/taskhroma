@@ -1,7 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Home.css";
 
 const Home: React.FC = () => (
-	<h1>TODOアプリ制作中</h1>
+	<>
+		<div className="home-header">
+			<Link to="/home">
+				<img src="src/assets/title-w.png" className="title invert-light" alt="TASKhroma logo" style={{ cursor: "pointer" }} />
+			</Link>
+		</div>
+		<div className="home-content">
+			<h2>Work in Progress...</h2>
+		</div>
+	</>
 );
 
 export default Home;

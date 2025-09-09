@@ -2,6 +2,7 @@
   --background-color: #181818;
   --primary-text-color: #e8e8e8;
   --border-color: #333333;
+  --shadow-color: #000;
 }
 
 @media (prefers-color-scheme: light) {
@@ -9,6 +10,7 @@
     --background-color: #f0f0f0;
     --primary-text-color: #181818;
     --border-color: #cccccc;
+    --shadow-color: #aaa;
   }
 }
 
