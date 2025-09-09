@@ -6,6 +6,9 @@ const Home: React.FC = () => (
 	<>
 		<div className="home-header">
 			<Link to="/home">
+				<img src="public/favicon.svg" className="icon" alt="Home" style={{ cursor: "pointer" }}/>
+			</Link>
+			<Link to="/home">
 				<img src="src/assets/title-w.png" className="title invert-light" alt="TASKhroma logo" style={{ cursor: "pointer" }} />
 			</Link>
 		</div>
