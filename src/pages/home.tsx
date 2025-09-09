@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./Home.css";
+import titleImage from "../assets/title-w.png";
+import logoImage from "../assets/logo.svg";
 
 const Home: React.FC = () => (
 	<>
 		<div className="home-header">
 			<Link to="/home">
-				<img src="public/favicon.svg" className="icon" alt="Home" style={{ cursor: "pointer" }}/>
+				<img src={logoImage} className="icon" alt="Home" style={{ cursor: "pointer" }}/>
 			</Link>
 			<Link to="/home">
-				<img src="src/assets/title-w.png" className="title invert-light" alt="TASKhroma logo" style={{ cursor: "pointer" }} />
+				<img src={titleImage} className="title invert-light" alt="TASKhroma logo" style={{ cursor: "pointer" }} />
 			</Link>
 		</div>
 		<div className="home-content">
